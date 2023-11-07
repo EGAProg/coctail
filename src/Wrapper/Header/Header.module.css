@@ -1,0 +1,17 @@
+.header {
+    position: relative;
+    width: 100%;
+    height: 134px;
+    display: flex;
+    /* background-color: #fAE; */
+}
+
+.dropdown {
+    width: 36px;
+    height: 36px;
+    flex-shrink: 0;
+    position: absolute;
+    cursor: pointer;
+    margin-top: 49px;
+    /* background-color: red; */
+}

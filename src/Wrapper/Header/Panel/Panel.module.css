@@ -1,0 +1,54 @@
+.panel {
+    position: relative;
+    /* left: 1075px; */
+    flex-shrink: 0;
+    margin-top: 54px;
+    display: flex;
+    margin-right: 0px;
+    margin-left: auto;
+}
+
+.searchIco {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    margin-left: 19px;
+}
+.searchField {
+    background: #FFFDF5;
+    outline: none;
+    width: 410px;
+    height: 20px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    margin-left: 15px;
+}
+.searchFieldHolder {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+.searchField:valid:focus {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+.avatar {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+}
+.fav {
+    cursor: pointer;
+    margin-left: 15px;
+    width: 20px;
+    height: 20px;
+}
+.basket {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+}

@@ -1,0 +1,12 @@
+.BTNOwerflow {
+    /* margin-top: auto !important;  */
+    /* margin-bottom: 100px; */
+    float: right;
+    width: 85px;
+    height: 47px;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+}
+
+.left {
+    rotate: 180deg;
+}

@@ -1,0 +1,40 @@
+@import url('https://fonts.cdnfonts.com/css/bad-script');
+.buyFast {
+    margin-top: 150px;
+    display: flex;
+    width: 401px;
+    height: 31px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #121212;
+    font-family: Roboto, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 87.305%; /* 34.922px */
+}
+
+.salesHolder {
+    display: flex;
+}
+
+.sales {
+    margin-left: 250px;
+    display: flex;
+    width: 103px;
+    height: 31px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #514A7E;
+    font-family: Bad Script, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 87.305%; /* 34.922px */
+}
+.boxWearHolder {
+    overflow-x: hidden;
+    display: flex;
+}

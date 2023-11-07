@@ -1,0 +1,109 @@
+.WearBox {
+    margin-top: 60px;
+    margin-right: 80px;
+    padding-left: 80px;
+}
+
+.WearBoxPhoto {
+    width: 278px;
+    height: 319px;
+    box-shadow: 0px 4px 10px 0px rgba(81, 74, 126, 0.20);
+}
+
+.divHolder {
+    display: flex;
+}
+
+.boxPhoto {
+    width: 278px;
+    height: 319px;
+    box-shadow: 0px 4px 10px 0px rgba(81, 74, 126, 0.20);
+}
+
+.price {
+    display: flex;
+    width: 49px;
+    height: 9px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #121212;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.more {
+    display: flex;
+    width: 148px;
+    height: 9px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #7D7D7D;
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btnBuy {
+    width: 148px;
+    height: 37px;
+    border: 0.5px solid #121212;
+    text-align: center;
+    /* float: center; */
+}
+
+.btnBuy p {
+    color: #121212;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.imgs {
+    margin-top: 25px;
+    margin-left: 75px;
+}
+
+.imgs:first-child {
+    margin-right: 15px;
+}
+
+.fav {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+}
+.bag {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    margin-left: 15px;
+}
+
+.MoreAndStars {
+    display: flex;
+}
+
+.starHolder {
+    display: flex;
+    
+    /* margin-right: 0px; */
+    /* float: right; */
+    /* justify-content: flex-end; */
+    margin-top:17px;
+    margin-right: 5px;
+    position: relative;
+}
+.ShitHolder {
+    display: flex;
+    margin-left: auto;
+    margin-right: 0px;
+}
