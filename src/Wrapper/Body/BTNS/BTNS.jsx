@@ -17,7 +17,7 @@ const BTNS = () => {
             
             <div className={[styles.btn, styles.btnSendMsg].join(' ')}>
                 
-                <img src={"./icons/chat.svg"} className={styles.chatSvg}></img>
+                <img src={"./icons/chat.svg"} alt=""className={styles.chatSvg}></img>
             </div>
         </div>
     )

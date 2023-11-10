@@ -1,14 +1,6 @@
 import React from "react";
 import styles from "./WhyUs.module.css";
 const WhyUs = () => {
-    const classes = {
-        'circle': true,
-        'A': true,
-        'B': true,
-        'C': true,
-        'D': true,
-      };
-      
     return (
         <div className={styles.why}>
             <p className={styles.whyUs}>Почему выбирают нас?</p>

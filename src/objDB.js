@@ -13,6 +13,7 @@ const obj = [
         Name: "Платье женское крутое",
         Price: 100,
         DiscountPrice: 70,
+        Photo: "/images/wearPlaceHolder.jpg",
         StarImgUrl: "/icons/star.svg",
         StarsCount: 5
     }

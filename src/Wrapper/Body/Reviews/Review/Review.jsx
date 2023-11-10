@@ -6,7 +6,7 @@ const Review = (props) => {
     return (
     <div className={styles.review}>
         <div class v Name={styles.avatarHolder}>
-            <img src="/images/shirt.png" className={styles.avatar}></img>
+            <img src="/images/shirt.png" alt=" " className={styles.avatar}></img>
         </div>
         <div className={styles.reviewHolderItems}>
             <div className={styles.starInnersHolder}>

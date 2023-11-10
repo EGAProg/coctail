@@ -7,6 +7,9 @@ class WearBoxClass extends React.Component {
     render() {
       const children = <Stars stars={obj[0].StarImgUrl}/>
       for (let i = 0; i < obj[0].StarsCount; i++) {
+
+        // React.Component.Children.appendChild(children);
+
         return (
             <div className={styles.starHolder}>
                 {children}

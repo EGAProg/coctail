@@ -7,6 +7,8 @@
 }
 
 .dropdown {
+    display: flex;
+    z-index: 1000;
     width: 36px;
     height: 36px;
     flex-shrink: 0;
@@ -15,3 +17,4 @@
     margin-top: 49px;
     /* background-color: red; */
 }
+

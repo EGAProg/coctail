@@ -1,13 +1,24 @@
 .itemHolder {
-    width: 150px;
+    width: 170px;
     height: 85px;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.textHead {
+    /* margin-top: 30px; */
+    
 }
 .HeaderText {
+    
+    margin: auto;
+    margin-top: 60px;
     display: flex;
     width: 121px;
     height: 37px;
-    flex-direction: column;
-    justify-content: center;
+    /* flex-direction: column;
+    justify-content: center; */
     flex-shrink: 0;
     color: #121212;
     text-align: center;
@@ -16,13 +27,16 @@
     font-style: normal;
     font-weight: 400;
     line-height: 118%; /* 23.6px */
+    
 }
 .BodyText {
+    margin: auto;
+    margin-top: 40px;
     display: flex;
-    width: 150px;
+    width: 160px;
     height: 26px;
-    flex-direction: column;
-    justify-content: center;
+    /* flex-direction: column;
+    justify-content: center; */
     flex-shrink: 0;
     color: #7D7D7D;
     text-align: center;

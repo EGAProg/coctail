@@ -1,0 +1,12 @@
+.noneAns {
+  display: none;
+}
+
+.ans {
+  width: auto;
+  border: 1px solid #7D7D7D;
+}
+
+p {
+  text-decoration: none !important;
+}
