@@ -1,12 +1,12 @@
 .wrapper {
     cursor:default !important;
-    margin-left: 135px auto;
+    /* margin-left: 135px auto;
     margin-right: 135px auto;
     margin-top: 0px;
     margin: 0 auto;
     max-width: 1440px;
     max-height: 6000px;
-    background-color: #FFFDF5;
+    background-color: #FFFDF5; */
 }
 
 .wrapper a:link {

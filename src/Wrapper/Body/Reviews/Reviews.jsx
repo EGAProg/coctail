@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Reviews.module.css"
 import Review from "./Review/Review";
-
+import { NavLink } from "react-router-dom";
 const Reviews = () => {
     return (
         <div>
@@ -15,9 +15,11 @@ const Reviews = () => {
                 </div>
 
             </div>
+            <NavLink to="/working">
             <div className={styles.AddRev}><p>Добавить отзыв</p></div>
+            </NavLink>
         </div>
-        )
+    )
 };
 
 export default Reviews;

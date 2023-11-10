@@ -3,23 +3,14 @@ import styles from "./WearBox.module.css";
 import Stars from "./Stars/Stars";
 import obj from "../../../../objDB.js";
 
-class WearBoxClass extends React.Component {
-    render() {
-      const children = <Stars stars={obj[0].StarImgUrl}/>
-      for (let i = 0; i < obj[0].StarsCount; i++) {
-
-        // React.Component.Children.appendChild(children);
-
-        return (
-            <div className={styles.starHolder}>
-                {children}
-            </div>
-        );
-      }
+const renStar = (item) => {
+    let content = []
+    for (let i = 0; i < obj[item].StarsCount; i++) {
+        content.push(<Stars stars={obj[item].StarImgUrl}/>)
     }
-  }
-
-const WearBox = () => {
+    return (content);
+};
+const WearBox = (props) => {
     return (
         <div className={styles.WearBox}>
             <div className={styles.boxPhoto}>
@@ -38,10 +29,7 @@ const WearBox = () => {
             <div className={styles.MoreAndStars}>
                 <div className={styles.btnBuy}><p>Подробнее</p></div>
                 <div className={styles.ShitHolder}>
-                    <WearBoxClass />
-                    <WearBoxClass />
-                    <WearBoxClass />
-                    <WearBoxClass />
+                    <div className={styles.starHolder} >{ renStar(props.item) }</div>
                 </div>
             </div>
         </div>

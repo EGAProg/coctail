@@ -10,13 +10,12 @@ import Cooperation from "./Cooperation/Cooperation";
 import InviteEmployee from "./InviteEmployee/InviteEmployee";
 import { NavLink } from "react-router-dom";
 import Header from "../Header/Header";
-import Footer from "./Footer/Footer";
+import Footer from "../Footer/Footer";
 
 const Body = (props) => {
     return (
         <>
         <Header />
-            <NavLink to="/">
                 <div className={styles.body}>
                     <div className={styles.bodyInner}>
                         <div className={styles.holder}>
@@ -46,16 +45,16 @@ const Body = (props) => {
                         </NavLink>
                     <HalfCircle />
                     <WhyUs />
-                    <BTNS />
+                    
                     <Sales />
                     <Reviews />
                     <HalfCircle />
                     <FAQ />
                     <Cooperation />
                     <InviteEmployee />
-                    <Footer />
                 </div>
-            </NavLink>
+            <BTNS />
+            <Footer />
         </>
     );
 };

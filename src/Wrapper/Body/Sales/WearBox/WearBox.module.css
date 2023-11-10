@@ -80,6 +80,7 @@
     width: 20px;
     height: 20px;
     flex-shrink: 0;
+    margin-left: 15px;
 }
 .bag {
     width: 20px;
@@ -94,7 +95,7 @@
 
 .starHolder {
     display: flex;
-    
+    margin-left:15px;
     /* margin-right: 0px; */
     /* float: right; */
     /* justify-content: flex-end; */

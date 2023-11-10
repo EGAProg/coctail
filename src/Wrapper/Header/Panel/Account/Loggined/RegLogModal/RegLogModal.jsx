@@ -3,7 +3,7 @@ import styles from "./RegLogModal.module.css";
 import "./RegLogModal.module.css"
 import usersArray from "../../../usersArray/usersArray";
 
-const RegLogModal = ({active, setActive, reg}) => {
+const RegLogModal = ({active, setActive}) => {
     function logIn() {
         const email = document.querySelector('#email').value;
         const pass = document.querySelector('#pass').value;

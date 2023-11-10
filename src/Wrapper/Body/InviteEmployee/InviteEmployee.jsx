@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./InviteEmployee.module.css";
-
+import { NavLink } from "react-router-dom";
 const InviteEmployee = () => {
     return (
         <div className={styles.Holder}>
@@ -20,7 +20,9 @@ const InviteEmployee = () => {
                         <div className={styles.smoolBTN}></div>
                         <p>Даю согласие на обработку перональных данных</p>
                     </div>
+                    <NavLink to="/working">
                     <div className={styles.agreeBTN}><p>Отправить →</p></div>
+                    </NavLink>
                 </div>
             </div>
         </div>

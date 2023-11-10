@@ -111,7 +111,11 @@
     line-height: 87.305%; /* 17.461px */
 }
 
+.whyPersText {
+    text-decoration: none !important;
+}
+
 .PersIMG {
     margin: 0 auto;
-    margin-left: 80px;
+    margin-left: 90px;
 }

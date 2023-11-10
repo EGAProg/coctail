@@ -1,8 +1,9 @@
 .Holder {
     margin-top: 150px;
-    position: absolute;
-    margin-left: -87px;
-    width: 971px;
+    position: relative;
+    /* margin-left: auto;
+    margin-right: auto; */
+    width: 1440px;
     height: 411.239px;
     flex-shrink: 0;
     background: #514A7E;
@@ -12,7 +13,7 @@
     justify-content: center;
 }
 .InnerHolder {
-    margin: 0 auto;
+    /* margin: 0 auto; */
     /* margin-top: 35px; */
     width: 714px;
     height: 332.576px;
@@ -67,6 +68,10 @@ input:valid:focus {
     height: 7px;
     border: 1px solid #121212;
     border-radius: 50%;
+}
+
+.smoolBTN .activeSmol {
+    background-color: #3a3364;
 }
 
 .personalDataAgree {

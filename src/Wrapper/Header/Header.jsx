@@ -21,13 +21,13 @@ const Header = () => {
     // }
     const [activeModal, setActiveModal] = useState(false)
     return (
-        <div className={styles.header}>
+        <header className={styles.header}>
             <div className={styles.dropdown} onClick={() => {setActiveModal(true)}}>
                 <img src={"/icons/clarity_menu-line.svg"} alt=" "></img>
             </div>
             <DropDownMenu active={activeModal} setActive={setActiveModal}/>
             <Panel />
-        </div>
+        </header>
     )
 
 };

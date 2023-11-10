@@ -50,13 +50,23 @@ const Sales = () => {
             <div className={styles.sales}>Акции</div>
             <div className={styles.salesHolder}>
                 <div className={styles.boxWearHolder}>
+                    {
+                        obj.map((index, item) => (
+                            <WearBox 
+                            photo={obj[item].Photo.toString()} 
+                            name={obj[item].Name} price={obj[0].Price} 
+                            StarImgUrl={obj[item].StarImgUrl.toString()} 
+                            starCount={obj[item].StarsCount}
+                            item={item}/>
+                        ))
+                    }
+                    {/* <WearBox photo={obj[0].Photo.toString()} name={obj[0].Name} price={obj[0].Price} StarImgUrl={obj[0].StarImgUrl.toString()} starCount={obj[0].StarsCount}/>
+                    <WearBox photo={obj[1].Photo.toString()} name={obj[1].Name} price={obj[1].Price} StarImgUrl={obj[1].StarImgUrl.toString()} starCount={obj[1].StarsCount}/>
                     <WearBox photo={obj[0].Photo.toString()} name={obj[0].Name} price={obj[0].Price} StarImgUrl={obj[0].StarImgUrl.toString()} starCount={obj[0].StarsCount}/>
+                    <WearBox photo={obj[1].Photo.toString()} name={obj[1].Name} price={obj[1].Price} StarImgUrl={obj[1].StarImgUrl.toString()} starCount={obj[1].StarsCount}/>
                     <WearBox photo={obj[0].Photo.toString()} name={obj[0].Name} price={obj[0].Price} StarImgUrl={obj[0].StarImgUrl.toString()} starCount={obj[0].StarsCount}/>
-                    <WearBox photo={obj[0].Photo.toString()} name={obj[0].Name} price={obj[0].Price} StarImgUrl={obj[0].StarImgUrl.toString()} starCount={obj[0].StarsCount}/>
-                    <WearBox photo={obj[0].Photo.toString()} name={obj[0].Name} price={obj[0].Price} StarImgUrl={obj[0].StarImgUrl.toString()} starCount={obj[0].StarsCount}/>
-                    <WearBox photo={obj[0].Photo.toString()} name={obj[0].Name} price={obj[0].Price} StarImgUrl={obj[0].StarImgUrl.toString()} starCount={obj[0].StarsCount}/>
-                    <WearBox photo={obj[0].Photo.toString()} name={obj[0].Name} price={obj[0].Price} StarImgUrl={obj[0].StarImgUrl.toString()} starCount={obj[0].StarsCount}/>
-                </div>
+                    <WearBox photo={obj[1].Photo.toString()} name={obj[1].Name} price={obj[1].Price} StarImgUrl={obj[1].StarImgUrl.toString()} starCount={obj[1].StarsCount}/> */}
+                </div> 
                 
             </div>
             <div className={styleBTN.BTNOwerflow} >

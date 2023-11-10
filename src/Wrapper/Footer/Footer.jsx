@@ -3,7 +3,7 @@ import styles from "./Footer.module.css";
 
 const Footer = () => {
     return (
-        <div className={styles.Footer}>
+        <footer className={styles.Footer}>
             <div className={[styles.block]}>
                 <h4 className={styles.innerTitle}>Информация</h4>
                 <p className={styles.innerText}>Главная</p>
@@ -45,7 +45,7 @@ const Footer = () => {
                     <p className={styles.innerTextInfo}>круглосуточно, без выходных</p>
                 </div>
             </div>
-        </div>
+        </footer>
     )
 };
 

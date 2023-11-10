@@ -1,7 +1,10 @@
 .BTNS {
-    margin-top: 110px;
+    bottom: 30px;
+    margin-left: 70px;
+
     display: flex;
-    
+    position: fixed;
+    z-index: 0;
 }
 
 .btn {
@@ -20,10 +23,12 @@
 .btnSendMsg{
     position: sticky;
     /* position: fixed; */
+    margin-left: 1570px;
+    /* margin-right: 70px; */
+    /* align-self: right; */
     width: 72px;
     height: 72px;
-    margin-left: auto;
-    margin-right: 0px;
+    float: right;
 }
 
 .chatSvg {

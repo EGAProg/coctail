@@ -6,22 +6,21 @@ import RegLogModal from "./Loggined/RegLogModal/RegLogModal";
 import "react-dom"
 
 const Account = ({active, setActive}) => {
-    const [items, setItems] = useState([]);
+    const [items] = useState([]);
     useEffect(() => {
         localStorage.setItem('items', JSON.stringify(usersArray));
     }, [items]);
-    usersArray.forEach((user) => {
-        if (user.loggined === true) {
-            localStorage.removeItem('items');
-            user.loggined = true;
-            localStorage.setItem('items', JSON.stringify(usersArray));
-            return <Loggined active={active} setActive={setActive} uname={user.name}/>
-        }
     
-        else {
-            return <RegLogModal active={active} setActive={setActive}/>
+        if (true) {
+            
+            return <RegLogModal active={active} setActive={setActive}/>   
         }
-    });
+        else {
+            localStorage.removeItem('items');
+            usersArray[1].loggined = true;
+            localStorage.setItem('items', JSON.stringify(usersArray));
+            return <Loggined active={active} setActive={setActive} uname={usersArray[1].name}/>
+        }
 
 };
 
