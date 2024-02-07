@@ -5,8 +5,8 @@ import obj from "../../../../objDB.js";
 
 const renStar = (item) => {
     let content = []
-    for (let i = 0; i < obj[item].StarsCount; i++) {
-        content.push(<Stars stars={obj[item].StarImgUrl}/>)
+    for (let i = 0; i < obj[2].StarsCount; i++) {
+        content.push(<Stars stars={obj[0].StarImgUrl}/>)
     }
     return (content);
 };
